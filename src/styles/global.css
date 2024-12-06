@@ -28,6 +28,10 @@
   --oxygen: "Oxygen", sans-serif;
 }
 
+body {
+  background-color: var(--gray-200);
+}
+
 ::-webkit-scrollbar {
   width: 0.375rem;
 }
