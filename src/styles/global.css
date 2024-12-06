@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pink: #d658b3;
+  --green: #45b442;
+
+  --gray-700: #332b31;
+  --gray-600: #4a4448;
+  --gray-500: #756c71;
+  --gray-400: #d3cfd2;
+  --gray-300: #dfdcdf;
+  --gray-200: #e9e7e9;
+  --gray-100: #f4f1f2;
+  --white: #ffffff;
+
+  --gradient-base: linear-gradient(
+    90deg,
+     #2DAA6E 0%,
+     #2DAAAA 33.33%,
+     #856CCF 66.67%,
+     #D658B3 100%
+  );
+
+  --oxygen: "Oxygen", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0.375rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dfdcdf;
+}
