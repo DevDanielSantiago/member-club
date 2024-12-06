@@ -1,4 +1,12 @@
 {
+  "name": "memberclub",
+  "description": "Aplicação web de cartão fidelidade.",
+  "author": "Daniel Santiago",
+  "scripts": {
+    "dev": "webpack serve",
+    "server": "json-server --watch server.json --port 3333",
+    "build": "webpack"
+  },
   "dependencies": {
     "json-server": "^1.0.0-beta.3"
   },
