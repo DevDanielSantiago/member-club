@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 5rem;
+
+  align-items: end;
+
+  margin-bottom: 1rem;
+}
+
+.header__logo {
+  width: 6.214375rem;
+  height: 3rem;
+}
+
+@media (width >= 57rem) {
+  .header {
+    height: 7.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .header__logo {
+    width: 7.25rem;
+    height: 3.5rem;
+  }
+}
